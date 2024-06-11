@@ -41,7 +41,7 @@ export default function Home() {
         <li><a href="mailto:mayanksoni1701@gmail.com" target="_blank">Contact Me</a></li>
       </ul>
 
-      <a href="#" style={{ color: "#000" }}><FontAwesomeIcon icon={faBars} className="hamburger" onClick={toggleDiv}/></a>
+      <a className="hamburger" onClick={toggleDiv}><Image src="/hamburger.svg" alt="profile" width={30} height={30} /></a>
     </nav>
 
     <div className="info-container"> 

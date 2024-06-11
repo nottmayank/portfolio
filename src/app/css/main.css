@@ -88,7 +88,6 @@ nav ul li a {
 }
 
 .hamburger {
-    font-size: 1.4rem;
     display: none;
 }
 
@@ -109,6 +108,7 @@ nav ul li a {
     .hamburger {
         display: block;
         float: right;
+        font-size: 1rem !important;
     }
     nav ul {
         display: none;
